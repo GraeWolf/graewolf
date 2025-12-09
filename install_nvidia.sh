@@ -43,4 +43,4 @@ fi
 echo "[*] Done."
 
 # Installing the Nvidia drivers
-sudo pacman -Sy --noconfimr --needed nvidia-dkms nvidia-utils
+sudo pacman -Sy --noconfirm --needed nvidia-dkms nvidia-utils
