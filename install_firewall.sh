@@ -7,5 +7,5 @@ sudo pacman -S --noconfirm --needed ufw
 echo "Enabling and starting ufw."
 systemctl enable --now ufw
 sudo ufw default deny incoming
-sudo ufw fefault allow outgoing
+sudo ufw default allow outgoing
 sudo ufw enable
