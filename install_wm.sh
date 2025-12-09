@@ -12,8 +12,8 @@ sudo pacman -S --noconfirm --needed bspwm sxhkd rofi picom polybar fastfetch \
 chmod 755 bspwm/bspwmrc
 chmod 644 sxhkd/sxhkdrc
 
-ln -sfn bspwm $USER/.config/bspwm
-ln -sfn picom $USER/.config/picom
-ln -sfn polybar $USER/.config/polybar
-ln -sfn sxhkd $USER/.config/sxhkd
-ln -sfn xinitrc $USER/.xinitrc
+ln -sfn bspwm /home/$USER/.config/bspwm
+ln -sfn picom /home/$USER/.config/picom
+ln -sfn polybar /home/$USER/.config/polybar
+ln -sfn sxhkd /home/$USER/.config/sxhkd
+ln -sfn xinitrc /home/$USER/.xinitrc
