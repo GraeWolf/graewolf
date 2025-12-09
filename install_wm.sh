@@ -7,7 +7,7 @@ sudo pacman -S --noconfirm --needed bspwm sxhkd rofi picom polybar fastfetch \
            arandr polkit-gnome gvfs udisks2 udiskie networkmanager \
            network-manager-applet nm-connection-editor \
            bluez bluez-utils pulseaudio-alsa pavucontrol \
-           lxappearance lxsession feh unzip unzip alsa-utils ghostty
+           lxappearance lxsession feh unzip unzip alsa-utils ghostty eza bat
 
 chmod 755 bspwm/bspwmrc
 chmod 644 sxhkd/sxhkdrc
