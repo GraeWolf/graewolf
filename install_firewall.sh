@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed ufw
 
 echo "Enabling and starting ufw."
 systemctl enable --now ufw
