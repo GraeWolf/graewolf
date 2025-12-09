@@ -11,7 +11,7 @@ fi
 #export XDG_CURRENT_DESKTOP=bspwm
 
 # start polkit agent for GUI privilege prompts
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # start xss-lock with xsecurelock
 xss-lock --transfer-sleep-lock -- xsecurelock &
