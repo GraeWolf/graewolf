@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Get current status line without clock
+#raw=$(dwmblocks-helper)  # or however you get current bar text
+
+# Or just output padded clock
+clock=$(date '+%H:%M')
+
+# Get terminal width (in characters) - adjust for your font
+cols=$(tput cols)  # or hardcode, e.g. 120
+
+# Calculate padding
+pad=$(( (cols - ${#clock} - 30) / 2 ))  # 30 = rough space for right blocks
+[ $pad -lt 0 ] && pad=0
+
+display "%*s%s%*s" $pad "" "$clock" $pad ""
