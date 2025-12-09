@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed xsecurelock xss-lock
