@@ -4,7 +4,7 @@
 ~/.local/scripts/launch_polybar.sh
 pgrep -x sxhkd > /dev/null || sxhkd &
 picom --config ~/.config/picom/picom.conf &
-feh --bg-fill ~/.local/share/graewolf/backgrounds/FalloutNukaQuantum.jpg &
+feh --bg-fill ~/.local/share/graewolf/backgrounds/Clearnight.jpg &
 udiskie &
 lxsession &
 xsetroot -cursor_name left_ptr
@@ -20,7 +20,7 @@ bspc config bottom_padding 0
 bspc config left_padding 0
 bspc config right_padding 0
 bspc config focus_follows_pointer true
-bspc config pointer_follows_focus true
+#bspc config pointer_follows_focus true
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
