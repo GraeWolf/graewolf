@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-git clone https://aur.archlinux.org/yay.git $(pwd)/
+git clone https://aur.archlinux.org/yay.git $(pwd)/yay
 
 cd $(pwd)/yay
 makepkg -si
