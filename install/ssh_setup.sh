@@ -23,3 +23,6 @@ else
 fi
 
 sudo umount /mnt
+
+# convert graewolf repo to ssh
+git remote setu-url origin git@github.com:GraeWolf/graewolf.git
