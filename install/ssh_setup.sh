@@ -9,7 +9,10 @@ sudo pacman -S --noconfirm --needed git neovim cifs-utils gvfs-smb
 echo "Please enter the smb share username: "
 read smbUser
 
-sudo mount -t cifs -o username=$smbUser //192.168.1.3/storage/data/LinuxPC/kmccuddy /mnt
+echo "Enter smb share:"
+read smbShare
+
+sudo mount -t cifs -o username=$smbUser //$smbShare /mnt
 
 # Check to see if the .data directory is mounted and the .ssh directory exists
 if [ -d "/mnt/.ssh" ]; then
