@@ -5,6 +5,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 picom --config ~/.config/picom/picom.conf &
 feh --bg-fill ~/.local/share/graewolf/backgrounds/Clearnight.jpg &
+xsettingsd -c ~/.config/bspwm/xsettingsd
 udiskie &
 lxsession &
 xsetroot -cursor_name left_ptr
