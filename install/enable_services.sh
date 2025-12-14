@@ -3,11 +3,11 @@
 set -euo pipefail
 
 echo "Enabling and starting NetworkManager."
-systemctl enable --now NetworkManager
+sudo systemctl enable --now NetworkManager
 
 echo "Enabling and starting Bluetooth."
-systemctl enable --now bluetooth
+sudo systemctl enable --now bluetooth
 
 echo "Enabling and starting timesyncd."
-systemctl enable --now systemd-timesyncd
+sudo systemctl enable --now systemd-timesyncd
 
