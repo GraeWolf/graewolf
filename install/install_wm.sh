@@ -8,7 +8,7 @@ sudo pacman -S --noconfirm --needed bspwm sxhkd rofi picom polybar fastfetch \
            network-manager-applet nm-connection-editor \
            bluez bluez-utils pulseaudio-alsa pavucontrol \
            lxappearance lxsession feh unzip unzip alsa-utils eza bat \
-		   pcmanfm
+		   pcmanfm xsettingsd
 
 chmod 755 bspwm/bspwmrc
 chmod 644 sxhkd/sxhkdrc
