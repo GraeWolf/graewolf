@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-sudo pacman -S --noconfirm --needed git neovim cifs gvfs-smb
+sudo pacman -S --noconfirm --needed git neovim cifs-utils gvfs-smb
 
 #use user name to mount smb share
 
