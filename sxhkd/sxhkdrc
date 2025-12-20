@@ -6,13 +6,11 @@
 super + Return
 	ghostty
 
-alt + Return
-	ghostty
-# program launcher
-super + @space
+# application launcher
+super + shift + @space
 	dmenu_run -b -l 15 -fn 'monospace' -nb '#282828' -nf '#ebdbb2' -sb '#32302f' -sf '#a89984'
 
-super + shift + @space
+super + @space
 	rofi -modi drun, run -show drun
 
 # make sxhkd reload its configuration files:
@@ -131,7 +129,7 @@ super + {Left,Down,Up,Right}
 
 # Scratchpads
 super + alt + {b,g,i,space,t}
-	scratch {newsboat,neomutt,ranger,terminal,htop}
+	scratch {bitwarden-desktop,neomutt,ranger,terminal,htop}
 
 
 # Super + l lock screen imediately
@@ -141,3 +139,24 @@ super + l
 # Super + Shift + z suspend now
 super + shift + z
 	xsecurelock & sleep 1; systemctl suspend
+
+#
+# Launching Apps
+#
+super + shift + b
+	brave
+
+super + shift + alt b
+	chromium
+
+super + shift + f
+	pcmanfm
+
+super + shift + e
+	betterbird
+
+super + shift + a
+	brave --new-window --app=https://chatgpt.com
+
+super + shift + alt + a
+	brave --new-window --app=https://grok.com
