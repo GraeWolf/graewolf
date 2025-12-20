@@ -14,6 +14,7 @@ chmod 755 bspwm/bspwmrc
 chmod 644 sxhkd/sxhkdrc
 
 ln -sfn $(pwd)/bspwm /home/$USER/.config/bspwm
+ln -sfn $(pwd)/xsettingsd /home/$USER/.config/xsettingsd
 ln -sfn $(pwd)/picom /home/$USER/.config/picom
 ln -sfn $(pwd)/polybar /home/$USER/.config/polybar
 ln -sfn $(pwd)/sxhkd /home/$USER/.config/sxhkd
