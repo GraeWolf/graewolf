@@ -20,4 +20,6 @@ ln -sfn $(pwd)/polybar /home/$USER/.config/polybar
 ln -sfn $(pwd)/sxhkd /home/$USER/.config/sxhkd
 ln -sfn $(pwd)/xinitrc /home/$USER/.xinitrc
 ln -sfn $(pwd)/scripts /home/$USER/.local/scripts
+ln -sfn $(pwd)/dunst $HOME/.config/dunst
+
 
