@@ -11,7 +11,7 @@ super + shift + @space
 	dmenu_run -b -l 15 -fn 'monospace' -nb '#282828' -nf '#ebdbb2' -sb '#32302f' -sf '#a89984'
 
 super + @space
-	rofi -modi drun, run -show drun
+	rofi -combi-modi window,drun, run -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
