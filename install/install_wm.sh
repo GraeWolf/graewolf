@@ -8,7 +8,7 @@ sudo pacman -S --noconfirm --needed bspwm sxhkd rofi picom polybar fastfetch \
            network-manager-applet nm-connection-editor \
            bluez bluez-utils pulseaudio-alsa pavucontrol \
            lxappearance lxsession feh unzip unzip alsa-utils eza bat \
-		   pcmanfm xsettingsd dunst
+		   pcmanfm xsettingsd dunst zoxide trash-cli bash-completion
 
 chmod 755 bspwm/bspwmrc
 chmod 644 sxhkd/sxhkdrc
@@ -21,5 +21,6 @@ ln -sfn $(pwd)/sxhkd /home/$USER/.config/sxhkd
 ln -sfn $(pwd)/xinitrc /home/$USER/.xinitrc
 ln -sfn $(pwd)/scripts /home/$USER/.local/scripts
 ln -sfn $(pwd)/dunst $HOME/.config/dunst
-
+ln -sfn $(pwd)/.bash_profile $HOME/.bash_profile
+ln -sfn $(pwd)/.bashrc $HOME/.bashrc
 
