@@ -23,4 +23,5 @@ ln -sfn $(pwd)/scripts /home/$USER/.local/scripts
 ln -sfn $(pwd)/dunst $HOME/.config/dunst
 ln -sfn $(pwd)/.bash_profile $HOME/.bash_profile
 ln -sfn $(pwd)/.bashrc $HOME/.bashrc
+ln -sfn $(pwd)/starship.toml $HOME/.config/starship.toml
 
