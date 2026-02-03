@@ -2,6 +2,8 @@
 
 set -euo pipefail
 
+sudo pacman -S --noconfirm --needed debugedit base-devel
+
 git clone https://aur.archlinux.org/yay.git $(pwd)/yay
 
 cd $(pwd)/yay
