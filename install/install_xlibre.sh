@@ -4,7 +4,7 @@ set -euo pipefail
 
 # Installing the Xlibre verson of xorg
 
-sudo pacman-key --recv-keys 73580DE2EDDFA6D6
+curl -sS https://x11libre.net/repo/arch_based/x86_64/0x73580DE2EDDFA6D6.gpg | sudo pacman-key --add -
 sudo pacman-key --finger 73580DE2EDDFA6D6
 sudo pacman-key --lsign-key 73580DE2EDDFA6D6
 
